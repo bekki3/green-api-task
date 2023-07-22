@@ -1,0 +1,23 @@
+{
+  "name": "job-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "m1:prod": "node m1.js",
+    "m2: prod": "node m2.js",
+    "m1:dev": "nodemon m1.js",
+    "m2:dev": "nodemon m2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0"
+  }
+}
